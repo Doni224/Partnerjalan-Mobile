@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="130mm"
+        android:background="@drawable/back"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/example_bold"
+        android:textColor="@color/white"
+        android:layout_marginLeft="8dp"
+        android:textSize="31dp"
+        android:layout_marginTop="56mm"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_bold1"
+            android:textColor="@color/white"
+            android:layout_marginLeft="8dp"
+            android:textSize="16dp"
+            android:layout_marginTop="72mm"/>
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:background="@drawable/primary"
+            android:layout_marginTop="87mm"
+            android:layout_marginLeft="19dp"
+            android:text="MULAI"/>
+
+    <ImageView
+        android:id="@+id/navblt"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/tablet" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/mini"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PartnerJalan"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="10dp"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/vector"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="58mm"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paket Wisata Terbaik"
+            android:layout_marginLeft="19dp"
+            android:textSize="30dp"
+            android:layout_marginTop="135mm"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="144mm"
+                android:background="@drawable/card"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="144mm"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/card1"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="144mm"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/card2"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="144mm"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/card3"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paket Wisata Terbaru"
+            android:layout_marginLeft="19dp"
+            android:textSize="30dp"
+            android:layout_marginTop="201mm"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+            </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
